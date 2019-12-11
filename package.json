@@ -1,0 +1,22 @@
+{
+  "name": "aws-cli-s3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hbi99/aws-cli-s3-js.git"
+  },
+  "author": "Hakan Bilgin",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/hbi99/aws-cli-s3-js/issues"
+  },
+  "homepage": "https://github.com/hbi99/aws-cli-s3-js#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
