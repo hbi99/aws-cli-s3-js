@@ -31,6 +31,9 @@ const awsCli = {
 			});
 		});
 	},
+	fileExists(param) {
+		return this.exec(`s3 ls ${param.Bucket}/${param.Key}`);
+	},
 	exec(cmd) {
 		let command = `aws s3 ${cmd} --endpoint=${process.env.AWS_ENDPOINT}`;
 		return new Promise(async (resolve, reject) => {
